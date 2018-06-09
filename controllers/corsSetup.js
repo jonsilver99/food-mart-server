@@ -2,7 +2,7 @@
 module.exports = (req, res, next) => {
     res.header({  
         // Client allowed to connect
-        // 'Access-Control-Allow-Origin': 'https://b2b-crm-app.herokuapp.com',     
+        // 'Access-Control-Allow-Origin': 'https://food-mart.herokuapp.com',     
         'Access-Control-Allow-Origin': '*',
         // Request methods you wish to allow
         "Access-Control-Allow-Methods": "GET, POST, OPTIONS, PUT, PATCH, DELETE",
